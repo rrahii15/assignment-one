@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body {
+    background: linear-gradient(135deg, #FFC0CB, #FF69B4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+button {
+    margin: 0.5em;
+    padding: 0.8em 1.5em;
+    border: none;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    background-color: #FF69B4;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF1493;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #FF0066;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+
+#result {
+    margin-top: 2em;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5em 3em;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 80vw;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#studentDetails {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #FF69B4;
+}
